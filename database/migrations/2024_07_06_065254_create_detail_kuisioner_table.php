@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('detail_kuisioner', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('id_kuisioner');
+            $table->unsignedBigInteger('id_masterdata_kuisioner');
+            $table->unsignedBigInteger('id_masterdata_respon_kuisioner');
+            $table->string('keterangan')->nullable();
+
+            $table->timestamps();
+            $table->softDeletes();
+            $table->unsignedBigInteger('created_by')->nullable();
+            $table->unsignedBigInteger('updated_by')->nullable();
+            $table->unsignedBigInteger('deleted_by')->nullable();
+
+            $table->foreign('id_kuisioner')->references('id')->on('kuisioner')->onDelete('cascade');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('detail_kuisioner');
+    }
+};
