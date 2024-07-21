@@ -92,7 +92,7 @@
                 <div class="aside-logo flex-column-auto" id="kt_aside_logo">
                     <!--begin::Logo-->
                     <a href="#">
-                        <img src="{{ asset('assets/metronics/media/logos/logo-2-dark.svg') }}" class="img-fluid w-100" alt="" srcset="">
+                        {{-- <img src="{{ asset('assets/metronics/media/logos/logo-2-dark.svg') }}" class="img-fluid w-100" alt="" srcset=""> --}}
                         {{-- New Akademik --}}
                     </a>
                     <!--end::Logo-->
