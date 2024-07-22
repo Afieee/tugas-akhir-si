@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar,
+.homepage,
+.footer {
+  background-color: #f6f8fd;
+}
+
+/* Homepage Hero */
+.homepage .hero h1 {
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.homepage .hero img {
+  width: 550px;
+}
+
+@media screen and (max-width: 992px) {
+  .homepage {
+    padding-top: 50px;
+  }
+
+  .homepage .hero img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .homepage .hero img {
+    width: 300px;
+  }
+}
+/* Homepage Hero */
+
+/* Homepage Faq */
+.homepage .faq {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.homepage .faq .row:nth-child(1) {
+  width: 700px;
+  margin-inline: auto;
+}
+
+.homepage .faq .row:nth-child(2) {
+  width: 800px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .homepage .faq .row:nth-child(1),
+  .homepage .faq .row:nth-child(2) {
+    width: 100%;
+  }
+}
+/* Homepage Faq */

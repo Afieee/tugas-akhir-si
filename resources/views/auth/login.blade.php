@@ -28,6 +28,8 @@
         type="text/css" />
     <link href="{{ asset('assets/metronics/plugins/custom/fullcalendar/fullcalendar.bundle.css') }}" rel="stylesheet"
         type="text/css" />
+
+
 </head>
 
 <body>
@@ -51,10 +53,10 @@
                                         <h3 class="text-primary fs-1">Login untuk masuk ke halaman Dashboard</h3>
                                         <div class="row mb-5 mt-10">
                                             <label for="email">{{ __('NIM/NIP') }}</label>
-                
+
                                             <div>
                                                 <input id="username" type="text" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
-                
+
                                                 @error('username')
                                                     <span class="invalid-feedback" role="alert">
                                                         <strong>{{ $message }}</strong>
@@ -62,13 +64,13 @@
                                                 @enderror
                                             </div>
                                         </div>
-                
+
                                         <div class="row mb-5">
                                             <label for="password">{{ __('Password') }}</label>
-                
+
                                             <div>
                                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-                
+
                                                 @error('password')
                                                     <span class="invalid-feedback" role="alert">
                                                         <strong>{{ $message }}</strong>
@@ -76,25 +78,25 @@
                                                 @enderror
                                             </div>
                                         </div>
-                
+
                                         <div class="row mb-5">
                                             <div class="col-md-12">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                
+
                                                     <label class="form-check-label" for="remember">
                                                         {{ __('Remember Me') }}
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
-                
+
                                         <div class="row mb-0">
                                             <div class="col-md-12">
                                                 <button type="submit" class="btn btn-primary">
                                                     {{ __('Login') }}
                                                 </button>
-                
+
                                                 {{-- @if (Route::has('password.request'))
                                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                                         {{ __('Forgot Your Password?') }}
