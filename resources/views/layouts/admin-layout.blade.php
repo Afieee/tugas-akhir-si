@@ -7,7 +7,7 @@
     <title>@yield('title') | New Akademik</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <link rel="icon" href="{{ asset('assets/images/logo-ptjki.png') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('assets/images/logo.png') }}" />
 
     <!--begin::Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,10 +91,11 @@
                 <!--begin::Brand-->
                 <div class="aside-logo flex-column-auto" id="kt_aside_logo">
                     <!--begin::Logo-->
-                    <a href="#">
-                        {{-- <img src="{{ asset('assets/metronics/media/logos/logo-2-dark.svg') }}" class="img-fluid w-100" alt="" srcset=""> --}}
+                    <span class="d-flex align-items-center gap-2">
+                        <img src="{{ asset('assets/images/logo.png') }}" width="60" alt="" srcset="">
+                        <p class="m-0 p-0 h2">UNIDIP</p>
                         {{-- New Akademik --}}
-                    </a>
+                    </span>
                     <!--end::Logo-->
                     <!--begin::Aside toggler-->
                     <div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle"

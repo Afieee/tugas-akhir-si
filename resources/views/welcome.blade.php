@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="icon" type="image/svg+xml" href="{{ asset('assets/images/logo.png') }}" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sistem Akademik</title>
 
@@ -33,9 +33,12 @@
         {{-- NAVBAR --}}
         <nav class="navbar navbar-expand-lg py-4">
             <div class="container">
-              <a class="nav-link fw-bold" href="#" target="_blank">
-                Panduan Penggunaan Sistem
-              </a>
+            <div class="d-flex align-items-center gap-2">
+                <img src="{{ asset('assets/images/logo.png') }}" width="50" alt="">
+                <a class="nav-link fw-bold" href="#" target="_blank">
+                  Panduan Penggunaan Sistem
+                </a>
+            </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
