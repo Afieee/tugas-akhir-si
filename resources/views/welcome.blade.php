@@ -42,7 +42,7 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto align-items-center">
                   <span href="#" class="text-black text-decoration-none pt-lg-0 pt-3 text-center">
-                    <span class="fw-bold">Kontak</span> : sismik@email.uniban.ac.id
+                    <span class="fw-bold">Kontak</span> : sismik@email.unidip.ac.id
                   </span>
                   <span class="mx-3 opacity-50 d-lg-block d-none">|</span>
 
@@ -60,9 +60,9 @@
               <div class="hero row d-flex align-items-center">
                 <div class="col">
                   <h1 class="mb-4">
-                    Selamat Datang di <span class="fw-bold">Sistem Akademik</span> Universitas Bandung
+                    Selamat Datang di <span class="fw-bold">Sistem Akademik</span> Universitas Dipatiukur Bandung
                   </h1>
-                  <p class="lh-lg">Sistem Akademik Universitas Bandung merupakan media pembelajaran daring untuk memudahkan proses pengajaran di lingkungan Universitas Bandung Indonesia</p>
+                  <p class="lh-lg">Sistem Akademik Universitas Dipatiukur Bandung merupakan media pembelajaran daring untuk memudahkan proses pengajaran di lingkungan Universitas Dipatiukur Bandung</p>
                 </div>
                 <div class="col">
                   <img src={{ asset('assets/images/hero.png') }} alt="Hero Image" class="d-block mx-auto" />
@@ -73,7 +73,7 @@
                 <div class="row text-center mb-5">
                   <div class="col">
                     <h2 class="mb-3">Frequently Asked Question</h2>
-                    <p class="lh-lg">Berisikan kumpulan jawaban dari pertanyaan yang sering ditanyakan terkait Sistem Akademik Universitas Bandung</p>
+                    <p class="lh-lg">Berisikan kumpulan jawaban dari pertanyaan yang sering ditanyakan terkait Sistem Akademik Universitas Dipatiukur Bandung</p>
                   </div>
                 </div>
                 <div class="row">
@@ -185,16 +185,16 @@
               <div class="row">
                 <div class="col d-flex align-items-center justify-content-center gap-sm-5 gap-3 mb-3 flex-sm-row flex-column">
                   <a href="#" class="text-black text-decoration-none">
-                    <i class="fa-solid fa-globe text-info me-1"></i> Uniban Site
+                    <i class="fa-solid fa-globe text-info me-1"></i> Unidip Site
                   </a>
                   <p class="p-0 m-0">
-                    <i class="fa-solid fa-envelope text-info me-1"></i> sismik@email.uniban.ac.id
+                    <i class="fa-solid fa-envelope text-info me-1"></i> sismik@email.Unidip.ac.id
                   </p>
                 </div>
               </div>
               <div class="row">
                 <p>
-                  <span class="fw-bold">Uniban Sismik</span> <span class="opacity-25">•</span> All Rights Reserved
+                  <span class="fw-bold">Unidip Sismik</span> <span class="opacity-25">•</span> All Rights Reserved
                 </p>
               </div>
             </div>
