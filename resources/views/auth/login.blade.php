@@ -45,8 +45,11 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-lg-6 text-center">
-                                    <img class="opacity-75" src="{{ asset('assets/images/logo.png') }}" width="400" alt="">
+                                <div class="col-lg-6">
+                                    <img src="{{ asset('assets/images/svg/sign-in.svg') }}" class="w-100" alt="">
+                                {{-- Login Logo --}}
+                                {{-- <div class="col-lg-6 text-center">
+                                    <img class="opacity-75" src="{{ asset('assets/images/logo.png') }}" width="400" alt=""> --}}
                                 </div>
                                 <div class="col-lg-6">
                                     <form method="POST" action="{{ route('login') }}" class="mt-20">
